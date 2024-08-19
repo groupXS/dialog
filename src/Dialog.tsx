@@ -262,7 +262,6 @@ export default class Dialog extends React.Component<IDialogChildProps, any> {
           tabIndex={0}
           ref={this.saveRef('sentinelStart')}
           style={sentinelStyle}
-          aria-hidden="true"
         />
         <div className={`${prefixCls}-content`}>
           {closer}
@@ -281,7 +280,6 @@ export default class Dialog extends React.Component<IDialogChildProps, any> {
           tabIndex={0}
           ref={this.saveRef('sentinelEnd')}
           style={sentinelStyle}
-          aria-hidden="true"
         />
       </LazyRenderBox>
     );
